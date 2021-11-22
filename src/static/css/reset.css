@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body{font:12px/2em PingFangSC-Regular, Microsoft YaHei, Helvetica, sans-serif;background:#fff;-webkit-text-size-adjust: auto;width: 100%;}
+
+table{border-collapse:collapse;border-spacing:0}
+table td {
+margin:0px;
+padding:0px;
+}
+dl,dt,dd,ul,li,ol {
+	list-style-type:none;
+}
+textarea,input {outline: medium none;}
+fieldset,input,img {
+    border: 0 none;
+}
+img{border:0px;}
+a img{vertical-align:middle;}
+
+sup,sub{font-size:100%;vertical-align:baseline;}
+button{
+	/*border: 0 none;*/
+	cursor: pointer;
+}
+a{text-decoration:none;color:#297bc7;cursor:pointer;display: inline-block;outline: none;}
+/*a:hover{text-decoration:underline;color:#297bc7;}*/
+a:hover,a.cur{text-decoration:none;color:#297bc7;}
+em{font-style: normal;}
+
+.clearFix:after {visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0px;}
+.clearFix{*zoom:1;}
+.clear{*zoom:1;}
+.clear:after{display:block;content:'clear';clear:both;height:0;font-size:0;visibility:hidden;}
+.clearfix{clear:both;height:0;line-height:0;font-size:0;}
+
+.f{float:left;}
+.r{float:right;}
+.wrap{width:100%;margin: 0 auto;}
+.gray{background:#f7f7f7;}
+
+
+
